@@ -2,6 +2,7 @@
 This project is for Udacity Full Stack Web Developer course. This project is to develop a single page application featuring a map of the neighborhood. 
 
 # Demo
+Live version of this project can be visited: [https://blueblackw.github.io/Neighborhood-Map/](https://blueblackw.github.io/Neighborhood-Map/)
 
 # How to use this app
 1. Clone or download this repository to local device.
