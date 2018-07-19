@@ -18,7 +18,7 @@ This project is for Udacity Full Stack Web Developer course. This project is to 
 - Foursquare API
 
 # Features
-1. User can filter neighborhood address by typing in the search box in sidebar.
-2. User can click on neighborhood address name in sidebar to open info window for details of the selected location.
-3. User can click on marker on the map to open info window for details of the selected location.
+- User can filter neighborhood address by typing in the search box in sidebar.
+- User can click on neighborhood address name in sidebar to open info window for details of the selected location.
+- User can click on marker on the map to open info window for details of the selected location.
 
