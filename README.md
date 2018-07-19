@@ -9,7 +9,7 @@ Live version of this project can be visited at: [https://blueblackw.github.io/Ne
 2. Unzip files.
 3. Click on index.html or type url in browser to run this app.
 
-# Framework, Libraries, API for this project
+# Framework, Libraries, API, Tools
 - HTML
 - CSS
 - Javascript
