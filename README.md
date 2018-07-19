@@ -19,7 +19,7 @@ Live version of this project can be visited at: [https://blueblackw.github.io/Ne
 - Foursquare API
 
 # Features
-- User can filter neighborhood address by typing in the search box in sidebar.
-- User can click on neighborhood address name in sidebar to open info window for details of the selected location.
-- User can click on marker on the map to open info window for details of the selected location.
+- Filter neighborhood address by typing in the search box in sidebar.
+- Click on neighborhood address name in sidebar to open info window for details of the selected location.
+- Click on marker on the map to open info window for details of the selected location.
 
