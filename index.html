@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Udacity Neighborhood Map Project</title>
+    <script src="js/knockout-3.4.2.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+  	<div class="container">
+  		<div id="side-bar" data-bind="visible: showSidebar">
+  			<div id="search-container">
+  				<h1>Find Your Favorite Locations</h1>
+  				<hr>
+  				<div class="search-box-group">
+  					<input class="search-box" id="search-box" placeholder="Search locations" data-bind="textInput: queryItem, valueUpdate: 'afterkeydown'" />
+					</div>
+					<div class="search-nav">
+            <ul data-bind="foreach: filteredLocations" class="list-group">
+              <li  data-bind="text: name, click: $parent.setLoc"> </li>
+            </ul>
+          </div>
+				</div>
+      </div>
+      <div id="toggle-btn" data-bind="click: toggleVisibility">&#9776;</div>
+      <img src="images/logo.png" class="attributionLogo" alt="Foursquare">
+      <div id="map"></div>
+    </div>
+    <script src="js/app.js"></script>
+    <script async defer
+        src=
+        "https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyDg6iJxZr4at_kJ_khMgsUmMRLKK-bp7uk&v=3&callback=initMap" onerror="mapError()">
+    </script>
+	</body>
+</html>
