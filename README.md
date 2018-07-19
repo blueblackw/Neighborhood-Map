@@ -1,7 +1,7 @@
-# Neighborhood-Map
+# Neighborhood Map
 This project is for Udacity Full Stack Web Developer course. This project is to develop a single page application featuring a map of the neighborhood. 
 
-# Live Demo
+# Demo
 
 # How to use this app
 1. Clone or download this repository to local device.
